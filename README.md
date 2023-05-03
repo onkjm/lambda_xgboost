@@ -31,7 +31,7 @@ Login to aws account (change `123456789101` to your aws accaount id).
 aws ecr get-login-password --region ap-northeast-1 | docker login --username AWS --password-stdin 123456789101.dkr.ecr.ap-northeast-1.amazonaws.com
 ```
 
-Create repository on Amazon Elastic Container Repository (ECR)
+Create repository on Amazon Elastic Container Registry (ECR)
 
 ```
 aws ecr create-repository --region ap-northeast-1 --repository-name xgb_prj --image-scanning-configuration scanOnPush=true --image-tag-mutability MUTABLE
