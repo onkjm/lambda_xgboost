@@ -2,7 +2,7 @@
 sample of running xgboost on AWS Lambda.
 
 lambda has some limitation on uploading code.
-- 50MB for direct upload from console (with zip file)
+- 50MB for direct upload via console (with zip file)
 - 262MB for upload via S3 (with zip file)
 - 10GB for upload via ecr (with container image)
 
